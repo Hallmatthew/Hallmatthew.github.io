@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        #tweet-container{
+            max-width: 600px;
+            height: 100%;
+            width: 100%;
+            margin: auto;
+           
+        }
+        #tweet-profile{
+            display: flex;
+            padding: 10px;
+        }
+        #profile{
+            width: 100px;
+        }
+        #profile-info{
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            margin-top: 20px;
+            font-family: 'roboto',sans-serif;
+        }
+        #profile-name{
+            font-size: 25px;
+        }
+        #down-arrow{
+            width: 100px;
+            height: 25px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 220px;
+            position: relative;
+        }
+        #profile-hash{
+            color: gray;
+            font-size: 25px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+   <div id="tweet-container">
+      <div id="tweet-profile">
+         <img src="tweet-profile-pic%20(1).PNG">
+         <div id="profile-info">
+             <div id="profile-name">AUDL<img src="verified.png"></div>
+             <div id="profile-hash" @theAUDL></div>
+             <div id="down-arrow"><img src="down-arrow.svg"></div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
